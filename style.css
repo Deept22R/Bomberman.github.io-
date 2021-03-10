@@ -1,6 +1,12 @@
+body{
+  background-image: url("https://cdn.wallpapersafari.com/11/28/fWtTL3.jpg");
+}
+
 .container {
     width: 500px;
     align-content: center;
+    /* display: flex;
+    justify-content: center; */
   }
   
   .grid {
@@ -8,7 +14,9 @@
     width: 400px;
     display: flex;
     flex-wrap: wrap;
-    background-color: chocolate;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: rgb(226, 207, 193);
     margin-left: 50px;
     margin-top: 20px;
     border: 10px solid #dcd6bc;
@@ -44,7 +52,10 @@
     border-color: #f5f3eb #bab7a9 #bab7a9 #fff9db;
     box-sizing: border-box;
   }
-  
+  #main{
+    display: flex;
+    justify-content: center;
+  }
   .one {
     color: #e76346;
   }
@@ -67,7 +78,13 @@
   }
 
   h1{
-      margin-left: 160px;
+      /* margin-left: 160px; */
+      text-align: center;
+      font-family: 'Rock Salt', cursive;
+      color: white;
+  }
+  #flags{
+    color: white;
   }
   
   /* .bomb {
